@@ -14,6 +14,7 @@ import { CategoryModule } from './category/category.module';
 import { OrderModule } from './order/order.module';
 import { StatisticsModule } from './statistics/statistics.module';
 import { PaginationModule } from './pagination/pagination.module';
+import {TestModule} from '../test/test.module';
 
 @Module({
   imports: [
@@ -29,6 +30,7 @@ import { PaginationModule } from './pagination/pagination.module';
     OrderModule,
     StatisticsModule,
     PaginationModule,
+    TestModule,
   ],
   controllers: [AppController],
   providers: [AppService, PrismaService],

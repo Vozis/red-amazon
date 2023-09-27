@@ -11,6 +11,7 @@ const Layout: FC<PropsWithChildren<unknown>> = ({ children }) => {
         className={'grid'}
         style={{
           gridTemplateColumns: '1fr 4fr',
+          height: "100vh",
         }}
       >
         <Sidebar />

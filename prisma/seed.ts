@@ -2,7 +2,6 @@ import * as dotenv from 'dotenv';
 import { PrismaClient, Product } from '@prisma/client';
 import { faker } from '@faker-js/faker';
 import slug = require('slug');
-// import * as slug from 'slug';
 
 dotenv.config();
 

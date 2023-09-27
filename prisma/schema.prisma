@@ -60,8 +60,6 @@ model Order {
   total     Int
 
   status EnumOrderItemStatus @default(PENDING)
-  userId Int                 @map("user_id")
-  user   User                @relation(fields: [userId], references: [id])
   items  OrderItem[]
 
   @@map("order")
